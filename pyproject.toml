@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mobile-testing2"
+version = "0.1.0"
+description = ""
+authors = ["marcelinleen <94484224+marcelinleen@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "mobile_testing2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+allure-pytest = "^2.13.2"
+appium-python-client = "2.11.1"
+selene = "2.0.0b5"
+pytest = "^7.4.0"
+pydantic = "^2.0.3"
+python-dotenv = "^1.0.0"
+pydantic-settings = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

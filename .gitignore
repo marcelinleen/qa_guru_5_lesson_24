@@ -1,0 +1,14 @@
+Sensetive data:
+.env.browserstack
+.env.local
+
+Other unimportant files:
+.DS_Store
+.idea
+__pycache__/
+.pytest_cache
+
+Need to remove from ignore after the task will be done (lessons file):
+example_config.py
+exaple_conftest.py
+oldconftest.py
